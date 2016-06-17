@@ -1,0 +1,25 @@
+import java.util.*;
+class StringReverse{
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a string :");
+		String rev;
+		String s = sc.nextLine();
+
+		System.out.println("Entred String is :"+s);
+
+		
+
+	
+
+		for(String a : s.split("\\s") ){
+
+		StringBuffer sb = new StringBuffer(a);
+
+		System.out.print(" "+sb.reverse());
+			}
+
+
+	}
+}
