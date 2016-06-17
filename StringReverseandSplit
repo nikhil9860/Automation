@@ -7,11 +7,7 @@ class StringReverse{
 		String rev;
 		String s = sc.nextLine();
 
-		System.out.println("Entred String is :"+s);
-
-		
-
-	
+		System.out.println("Entred String is :"+s)
 
 		for(String a : s.split("\\s") ){
 
