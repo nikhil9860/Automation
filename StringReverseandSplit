@@ -15,7 +15,5 @@ class StringReverse{
 
 		System.out.print(" "+sb.reverse());
 			}
-
-
 	}
 }
