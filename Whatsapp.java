@@ -15,7 +15,7 @@ public class Whatsapp {
 
         String text= "Whatsapp Spammer _|_ ";
         System.setProperty("webdriver.chrome.driver","/home/nikhil/Downloads/chromedriver");
-        WebElement ID , Button ;
+        //WebElement ID , Button ;
         WebDriver driver = new ChromeDriver();
         driver.get("https://web.whatsapp.com");
         Scanner sc = new Scanner(System.in);
