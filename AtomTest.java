@@ -5,7 +5,7 @@ class Atom{
   static {
 
     System.out.println(i);
-
+    System.out.println("static block");
   }
 
   public static void main(String[] args) throws Exception{
@@ -16,7 +16,7 @@ class Atom{
 
     }
 
-
+    System.out.println("Hello Git");
 
 
   }
